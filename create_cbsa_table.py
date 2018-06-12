@@ -1,7 +1,7 @@
-#Py script creates the cbsas.csv table
+#Py script creates a cbsas.csv table
 #Joins all US Zipcodes to OBM's definition of CBSAs
 #https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2017/TGRSHP2017_TechDoc_Ch3.pdf 3.13
-#Script is not optimized and take all day to run
+#Script is not optimized and takes all day to run
 
 import fiona as fi
 import pandas as pd
